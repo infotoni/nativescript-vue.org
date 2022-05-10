@@ -32,7 +32,7 @@ Los *templates* son almacenados como objetos, conforme a lo que indica la interf
 
 #### La propiedad `selectorFn`
 
-La propiedad `selectorFn` retorna una función que acepta una solo parametro. Este parametro representa al item cuyo template es seleccionado.
+La propiedad `selectorFn` retorna una función que acepta un solo parametro. Este parametro representa al item cuyo template es seleccionado.
 
 Lo que hace esta función es recorrer todos los *templates* registrados en la instancia `TemplateBag` y delvolver el primero que cumple con la condición `if` especificada. En caso de no encontrar una coincidencia, devuelve `default`.
 
